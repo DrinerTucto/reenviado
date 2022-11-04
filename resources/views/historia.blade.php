@@ -27,7 +27,9 @@
 
             }
             h1{
-                margin-right: 1600px;
+                position: static;
+                
+            
                 text-align: center;
             }
             p{
@@ -42,9 +44,9 @@
 
         <header>
         <nav>
-        <a class="a" href="INICIO">INCIO</a>     
-        <a class="a" href="INFORMACION">INFORMACION</a>     
-        <a class ="a" href="CONTACTAME">CONTACTAME</a>     
+        <a class="a" href="#holas">INCIO</a>     
+        <a class="a" href="">INFORMACION</a>     
+        <a class ="a" href="#a">CONTACTAME</a>     
     </nav>
       </header>
       <h1>Machu Picchu</h1>
@@ -57,7 +59,7 @@
 Con su antigua denominación de Ciudad de los Reyes, fue la capital del enorme Virreinato del Perú entre 1542 y 1821, entidad que abarcaba las posesiones españolas en Suramérica (excepto Venezuela) y algunas islas de Oceanía.ciudadela inca declarada “santuario histórico” es la atracción turística más famosa de Perú y uno de los yacimientos arqueológicos más importantes de América. Está en el Valle Sagrado de los Incas, a 2400 m.s.n.m. y a 75 km de Cusco, la antigua capital imperial prehispánica.</p>
 </div>
 
-<div class="hola">
+<div class="hola" id="holas">
     <p>
     La principal ciudad peruana a orillas del lago es Puno, capital del departamento de igual nombre, con una población mayoritariamente indígena.
 
@@ -71,6 +73,15 @@ La ciudad de Puno es una de las más alegres de Perú y su Fiesta de La Candelar
     <img src="https://tipsparatuviaje.com/wp-content/uploads/2019/07/lago-titicaca-1.jpg">
 
 </div>
+<div class="hola">
+    <img src="https://tipsparatuviaje.com/wp-content/uploads/2019/07/cusco-peru-1.jpg">
+    <p>
+    Esta Entre los principales inmuebles coloniales destacan la Catedral de Lima, la Plaza Mayor, la Universidad de San Marcos (primera de América, fundada en 1551), el Palacio de Torre Tagle, el Palacio Arzobispal y más de 1600 casonas y edificios con balcones, elemento que constituye el principal distintivo arquitectónico de la ciudad.
+
+Con su antigua denominación de Ciudad de los Reyes, fue la capital del enorme Virreinato del Perú entre 1542 y 1821, entidad que abarcaba las posesiones españolas en Suramérica (excepto Venezuela) y algunas islas de Oceanía.ciudadela inca declarada “santuario histórico” es la atracción turística más famosa de Perú y uno de los yacimientos arqueológicos más importantes de América. Está en el Valle Sagrado de los Incas, a 2400 m.s.n.m. y a 75 km de Cusco, la antigua capital imperial prehispánica.</p>
+</div>
+
+
     </body>
 
 
@@ -86,7 +97,7 @@ HOW TO CLONE A LARAVEL PROJECT FROM GITHUB https://youtu.be/k2zzbTFpYgA
 HOW TO UPLOAD LARAVEL PROJECT TO GITHUB FOR BEGINNERS https://youtu.be/1ziIpWrcL00 -->
 
 
-<footer>
+<footer id="a">
 
 driner@tucto2022
 </footer>
